@@ -1,32 +1,32 @@
-# class Car:
-#     color = "black"
+class Car:
+    color = "black"
 
-#     @staticmethod
-#     def start():
-#         print("Car started")
+    @staticmethod
+    def start():
+        print("Car started")
 
-#     @staticmethod
-#     def stop():
-#         print("Car stopped")
+    @staticmethod
+    def stop():
+        print("Car stopped")
 
-# class Toyota(Car):
-#     def __init__(self, name):
-#         self.name = name
+class Toyota(Car):
+    def __init__(self, name):
+        self.name = name
 
-# # Create instances of Toyota
-# car1 = Toyota("Fortuner")
-# car2 = Toyota("Suzuki")
+# Create instances of Toyota
+car1 = Toyota("Fortuner")
+car2 = Toyota("Suzuki")
 
-# print("Car1 name:", car1.name)
-# print("Car2 name:", car2.name)
+print("Car1 name:", car1.name)
+print("Car2 name:", car2.name)
 
-# # Start and stop car
-# car1.start()
-# car2.stop()
+# Start and stop car
+car1.start()
+car2.stop()
 
-# # Print the color of the cars
-# print("Car1 color:", car1.color)
-# print("Car2 color:", car2.color)
+# Print the color of the cars
+print("Car1 color:", car1.color)
+print("Car2 color:", car2.color)
 
 
 # -------- MULTI-LEVEL INHERITANCE -----------------
