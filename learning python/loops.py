@@ -88,3 +88,28 @@ for val in nums:
     if (val == x):
         print("number found")
      
+
+# WAP to find sum of first n numbers (using while)
+n=5
+sum = 0
+i = 1
+while i <= n:
+    sum = sum+i
+    i=i+1
+    print("sum =", sum)
+
+# WAP to find sum of first n numbers (using for loop)
+sum=0
+n=5
+for i in range(1, n+1):
+    sum = sum+i
+    print("sum = ", sum)
+
+# WAP to find the factorial of first n natural number
+n=7
+i=1
+fact =1
+while i <= n:
+    fact = fact*i
+    i = i+1
+    print("Factorials = ", fact)
